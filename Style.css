@@ -1,0 +1,42 @@
+
+header{
+  color:white;
+  padding-left:10px;
+}
+h1{
+  font-size:35px;
+  font-family:Arial,Helvetica,Sans-Serif;
+  margin:0px;
+}
+h4, h5, h6, li {
+  margin:2px;
+  font-family:Arial,Helvetica,Sans-Serif;
+}
+section{
+  color:white
+}
+.blurb{
+  font-size: 13px;
+  font-family:Arial,Helvetica,Sans-Serif;
+}
+.collapsible{
+  background-color:tan;
+  color:white;
+  cursor:pointer;
+  padding:5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline:none;
+  font-size:20px;
+  font-family:Arial,Helvetica,Sans-Serif;
+}
+.active, collapsible:hover{
+  background-color:grey;
+}
+.content{
+  padding:0 18px;
+  display:none;
+  overflow:hidden;
+  background-color:none;
+}
