@@ -12,3 +12,7 @@ for (i= 0; i < coll.length; i++){
     }
   });
 }
+
+document.documentElement.clientWidth;
+window.innerWidth;
+window.outerwidth;
